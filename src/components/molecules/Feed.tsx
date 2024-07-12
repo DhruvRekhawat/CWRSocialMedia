@@ -22,11 +22,8 @@ const Feed = () => {
       setPosts(postsArray);
     });
   };
-
-
-  setInterval(()=>{
     getAllPosts();
-  },30000)
+
   
 
   return (
